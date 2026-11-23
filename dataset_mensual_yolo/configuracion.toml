@@ -1,0 +1,92 @@
+# Dataset mensual automático YOLO · Santa Isabel · 2016–2026
+# Ejecutar desde esta carpeta:  python -m mensual --config configuracion.toml
+# Decimales con punto. Rutas relativas a este archivo.
+
+[periodo]
+anio_inicio = 2016
+anio_fin = 2026
+corte_utc = ""          # vacío = fecha y hora reales; o "2026-11-22" para fijarlo
+meses = []              # vacío = todos; p. ej. ["2016-06", "2024-01"]
+
+[aoi]
+nombre = "santa_isabel"
+caja_wgs84 = [-75.397, 4.773, -75.348, 4.827]   # oeste, sur, este, norte (malla de 10 m alineada con la del selector)
+crs = "EPSG:32618"
+resolucion_m = 10
+
+[nucleo]
+# Núcleo de cumbres usado para medir visibilidad; ajústalo con la figura del cuaderno si no encuadra las cumbres.
+# Debe quedar dentro del AOI (el valor del SDD [-75.385, 4.775, -75.345, 4.830] se recortó al borde este/norte).
+caja_wgs84 = [-75.385, 4.775, -75.348, 4.827]
+sectores = 3            # franjas norte, centro y sur de igual extensión latitudinal
+
+[clase]
+id = 0
+nombre = "nieve_hielo_visible"
+
+[fuentes]
+modo = "l2a_preferente"     # o "solo_l2a"
+inicio_l2a = "2017-03-28"
+cs_cdf_min = 0.60           # Cloud Score+ para L1C
+
+[preseleccion]
+resolucion_m = 20
+min_cobertura_aoi_pct = 95.0
+min_util_aoi_pct = 70.0
+min_util_sector_pct = 80.0     # SDD: 90; con 90 solo 18 de 131 meses tuvieron escena visible
+max_descargas_mes = 0       # 0 = sin límite (se detiene en la primera escena exportable)
+
+[etiquetas]
+mascara_agua_geojson = ""   # opcional: lagunas verificadas (WGS84) para corroborar agua en L1C
+
+[etiquetas.L2A]
+ndsi_min = 0.40
+ndsi_min_negativa = 0.30
+min_pixeles = 5
+min_util_componente = 0.80
+hueco_relleno_max_px = 4
+agua_fraccion_min = 0.90
+agua_b8_max = 0.10
+oscuro_b8_max = 0.10
+negativa_min_sector_pct = 99.0
+conectividad_anillo = 8
+# true (SDD): un componente ambiguo potencialmente positivo descarta la escena completa y se prueba la siguiente.
+# false: se exportan solo los componentes aceptados; los ambiguos quedan como fondo (más meses, más ruido).
+# Se usa false: con true, la ejecución 2016–2026 descartó los 18 meses visibles por manchas diminutas u oscuras.
+ambiguos_bloquean = false
+
+[etiquetas.L1C]
+ndsi_min = 0.40
+ndsi_min_negativa = 0.30
+min_pixeles = 5
+min_util_componente = 0.80
+hueco_relleno_max_px = 4
+agua_fraccion_min = 0.90
+agua_b8_max = 0.10
+oscuro_b8_max = 0.10
+negativa_min_sector_pct = 99.0
+conectividad_anillo = 8
+ambiguos_bloquean = false
+
+[particiones]
+frac_train = 0.70
+frac_val = 0.15
+corte_val = ""              # opcional "YYYY-MM": primer mes de validación
+corte_test = ""             # opcional "YYYY-MM": primer mes de prueba
+conservar_cortes_publicados = true
+
+[salida]
+directorio = "salida"
+enlaces = "fisico"          # enlaces físicos a la caché; "copia" para carpetas independientes
+verificar_ultralytics = true
+
+[gee]
+proyecto = ""               # vacío = EE_PROJECT o el de `earthengine set_project`
+tam_bloque = 512
+timeout_s = 180
+max_intentos = 4
+filas_pagina = 50
+
+[ejecucion]
+reintentar_pendientes = true
+refrescar_provisional = true

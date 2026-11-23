@@ -1,0 +1,208 @@
+{
+ "huella": "a2e0698abe68",
+ "perfil": "L2A",
+ "mes": "2020-03",
+ "consultado_utc": "2026-11-23T00:52:42Z",
+ "fin_consulta_utc": "2020-04-01T00:00:00Z",
+ "cerrado": true,
+ "candidatos": [
+  {
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20200304T152639_20200304T152636_T18NVL",
+   "indice": "20200304T152639_20200304T152636_T18NVL",
+   "t": 1583335905853,
+   "qa_disponible": true,
+   "sumas": {
+    "aoi": {
+     "datos": 32451478.013038196,
+     "total": 32451878.314216174,
+     "util": 12912997.209324736
+    },
+    "centro": {
+     "datos": 7877978.878753662,
+     "total": 7877978.878753662,
+     "util": 1412270.3221740723
+    },
+    "norte": {
+     "datos": 7846177.4860730935,
+     "total": 7846177.4860730935,
+     "util": 3201003.099464566
+    },
+    "sur": {
+     "datos": 7877803.057723582,
+     "total": 7877803.057723582,
+     "util": 2002719.5337524414
+    }
+   },
+   "satelite": "Sentinel-2B",
+   "tesela": "18NVL",
+   "orbita": 25,
+   "baseline": "02.14",
+   "nube_granulo_pct": 54.878306
+  },
+  {
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20200309T152641_20200309T152635_T18NVL",
+   "indice": "20200309T152641_20200309T152635_T18NVL",
+   "t": 1583767904288,
+   "qa_disponible": true,
+   "sumas": {
+    "aoi": {
+     "datos": 32451878.314185657,
+     "total": 32451878.314185657,
+     "util": 3365111.6430504913
+    },
+    "centro": {
+     "datos": 7877978.878753662,
+     "total": 7877978.878753662,
+     "util": 90468.30401611328
+    },
+    "norte": {
+     "datos": 7846177.486042576,
+     "total": 7846177.486042576,
+     "util": 12009.147399902344
+    },
+    "sur": {
+     "datos": 7877803.057723582,
+     "total": 7877803.057723582,
+     "util": 1009964.1909790039
+    }
+   },
+   "satelite": "Sentinel-2A",
+   "tesela": "18NVL",
+   "orbita": 25,
+   "baseline": "02.14",
+   "nube_granulo_pct": 64.067105
+  },
+  {
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20200314T152639_20200314T152738_T18NVL",
+   "indice": "20200314T152639_20200314T152738_T18NVL",
+   "t": 1584199906207,
+   "qa_disponible": true,
+   "sumas": {
+    "aoi": {
+     "datos": 32451878.314216174,
+     "total": 32451878.314216174,
+     "util": 94071.41812133789
+    },
+    "centro": {
+     "datos": 7877978.878753662,
+     "total": 7877978.878753662,
+     "util": 0.0
+    },
+    "norte": {
+     "datos": 7846177.4860730935,
+     "total": 7846177.4860730935,
+     "util": 94071.41812133789
+    },
+    "sur": {
+     "datos": 7877803.057723582,
+     "total": 7877803.057723582,
+     "util": 0.0
+    }
+   },
+   "satelite": "Sentinel-2B",
+   "tesela": "18NVL",
+   "orbita": 25,
+   "baseline": "02.14",
+   "nube_granulo_pct": 93.55798
+  },
+  {
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20200319T152641_20200319T152635_T18NVL",
+   "indice": "20200319T152641_20200319T152635_T18NVL",
+   "t": 1584631904538,
+   "qa_disponible": true,
+   "sumas": {
+    "aoi": {
+     "datos": 32451878.314185657,
+     "total": 32451878.314185657,
+     "util": 27193921.906556264
+    },
+    "centro": {
+     "datos": 7877978.878753662,
+     "total": 7877978.878753662,
+     "util": 6383646.710968018
+    },
+    "norte": {
+     "datos": 7846177.486042576,
+     "total": 7846177.486042576,
+     "util": 5781219.472697419
+    },
+    "sur": {
+     "datos": 7877803.057723582,
+     "total": 7877803.057723582,
+     "util": 7367104.632057939
+    }
+   },
+   "satelite": "Sentinel-2A",
+   "tesela": "18NVL",
+   "orbita": 25,
+   "baseline": "02.14",
+   "nube_granulo_pct": 54.985027
+  },
+  {
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20200324T152639_20200324T152952_T18NVL",
+   "indice": "20200324T152639_20200324T152952_T18NVL",
+   "t": 1585063906067,
+   "qa_disponible": true,
+   "sumas": {
+    "aoi": {
+     "datos": 32451878.314216174,
+     "total": 32451878.314216174,
+     "util": 0.0
+    },
+    "centro": {
+     "datos": 7877978.878753662,
+     "total": 7877978.878753662,
+     "util": 0.0
+    },
+    "norte": {
+     "datos": 7846177.4860730935,
+     "total": 7846177.4860730935,
+     "util": 0.0
+    },
+    "sur": {
+     "datos": 7877803.057723582,
+     "total": 7877803.057723582,
+     "util": 0.0
+    }
+   },
+   "satelite": "Sentinel-2B",
+   "tesela": "18NVL",
+   "orbita": 25,
+   "baseline": "02.14",
+   "nube_granulo_pct": 99.899495
+  },
+  {
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20200329T152641_20200329T152635_T18NVL",
+   "indice": "20200329T152641_20200329T152635_T18NVL",
+   "t": 1585495904284,
+   "qa_disponible": true,
+   "sumas": {
+    "aoi": {
+     "datos": 32451878.314216174,
+     "total": 32451878.314216174,
+     "util": 16960304.547678657
+    },
+    "centro": {
+     "datos": 7877978.878753662,
+     "total": 7877978.878753662,
+     "util": 2347779.8757629395
+    },
+    "norte": {
+     "datos": 7846177.4860730935,
+     "total": 7846177.4860730935,
+     "util": 4649123.175095382
+    },
+    "sur": {
+     "datos": 7877803.057723582,
+     "total": 7877803.057723582,
+     "util": 1814563.6615237966
+    }
+   },
+   "satelite": "Sentinel-2A",
+   "tesela": "18NVL",
+   "orbita": 25,
+   "baseline": "02.14",
+   "nube_granulo_pct": 73.501008
+  }
+ ]
+}

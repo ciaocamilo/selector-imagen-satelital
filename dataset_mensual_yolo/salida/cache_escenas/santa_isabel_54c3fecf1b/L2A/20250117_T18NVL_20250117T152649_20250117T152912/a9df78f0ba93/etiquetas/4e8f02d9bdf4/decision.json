@@ -1,0 +1,1437 @@
+{
+ "clave": "20250117_T18NVL_20250117T152649_20250117T152912",
+ "perfil": "L2A",
+ "decision": "ambigua",
+ "motivo": "5 componente(s) ambiguo(s): bajo_minimo=2, contacto_ocultacion=1, oscuro_sin_corroboracion=4, util_insuficiente=2",
+ "origen": "automatico_ndsi",
+ "revision_humana": false,
+ "reglas_version": "1.0",
+ "reglas_huella": "4e8f02d9bdf4",
+ "reglas": {
+  "ndsi_min": 0.4,
+  "ndsi_min_negativa": 0.3,
+  "min_pixeles": 5,
+  "min_util_componente": 0.8,
+  "hueco_relleno_max_px": 4,
+  "agua_fraccion_min": 0.9,
+  "agua_b8_max": 0.1,
+  "oscuro_b8_max": 0.1,
+  "negativa_min_sector_pct": 99.0,
+  "conectividad_anillo": 8,
+  "ambiguos_bloquean": true,
+  "version": "1.0",
+  "perfil": "L2A",
+  "origen": "automatico_ndsi",
+  "clase_id": 0,
+  "conectividad_componentes": 4,
+  "evidencia_agua": "SCL=6 y B8<agua_b8_max",
+  "mascara_agua": null,
+  "huella": "4e8f02d9bdf4"
+ },
+ "ancho": 545,
+ "alto": 598,
+ "instancias": 0,
+ "area_pseudoetiquetada_px": 0.0,
+ "aceptados": 3,
+ "ambiguos": 5,
+ "agua": 9,
+ "reglas_disparadas": {
+  "oscuro_sin_corroboracion": 4,
+  "bajo_minimo": 2,
+  "util_insuficiente": 2,
+  "agua_inequivoca": 9,
+  "contacto_ocultacion": 1
+ },
+ "visibilidad_sectores_pct": {
+  "norte": 94.9789,
+  "centro": 95.5589,
+  "sur": 97.4686
+ },
+ "barrido_negativa": null,
+ "componentes": [
+  {
+   "id": 1,
+   "pixeles": 798,
+   "caja": [
+    327,
+    86,
+    366,
+    116
+   ],
+   "ndsi_mediana": 0.9004,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 0,
+   "toca_borde": false,
+   "b8_mediana": 0.318,
+   "fraccion_agua": 0.0,
+   "fuente_agua": "SCL=6",
+   "motivos": [],
+   "vertices": [
+    [
+     338.0,
+     86.0
+    ],
+    [
+     338.0,
+     87.0
+    ],
+    [
+     335.0,
+     87.0
+    ],
+    [
+     335.0,
+     88.0
+    ],
+    [
+     334.0,
+     88.0
+    ],
+    [
+     334.0,
+     90.0
+    ],
+    [
+     333.0,
+     90.0
+    ],
+    [
+     333.0,
+     101.0
+    ],
+    [
+     335.0,
+     101.0
+    ],
+    [
+     335.0,
+     100.0
+    ],
+    [
+     336.0,
+     100.0
+    ],
+    [
+     336.0,
+     101.0
+    ],
+    [
+     340.0,
+     101.0
+    ],
+    [
+     340.0,
+     100.0
+    ],
+    [
+     341.0,
+     100.0
+    ],
+    [
+     341.0,
+     104.0
+    ],
+    [
+     339.0,
+     104.0
+    ],
+    [
+     339.0,
+     102.0
+    ],
+    [
+     337.0,
+     102.0
+    ],
+    [
+     337.0,
+     104.0
+    ],
+    [
+     335.0,
+     104.0
+    ],
+    [
+     335.0,
+     103.0
+    ],
+    [
+     333.0,
+     103.0
+    ],
+    [
+     333.0,
+     102.0
+    ],
+    [
+     331.0,
+     102.0
+    ],
+    [
+     331.0,
+     103.0
+    ],
+    [
+     330.0,
+     103.0
+    ],
+    [
+     330.0,
+     104.0
+    ],
+    [
+     328.0,
+     104.0
+    ],
+    [
+     328.0,
+     106.0
+    ],
+    [
+     327.0,
+     106.0
+    ],
+    [
+     327.0,
+     107.0
+    ],
+    [
+     328.0,
+     107.0
+    ],
+    [
+     328.0,
+     108.0
+    ],
+    [
+     329.0,
+     108.0
+    ],
+    [
+     329.0,
+     110.0
+    ],
+    [
+     331.0,
+     110.0
+    ],
+    [
+     331.0,
+     111.0
+    ],
+    [
+     332.0,
+     111.0
+    ],
+    [
+     332.0,
+     112.0
+    ],
+    [
+     333.0,
+     112.0
+    ],
+    [
+     333.0,
+     113.0
+    ],
+    [
+     334.0,
+     113.0
+    ],
+    [
+     334.0,
+     114.0
+    ],
+    [
+     335.0,
+     114.0
+    ],
+    [
+     335.0,
+     115.0
+    ],
+    [
+     337.0,
+     115.0
+    ],
+    [
+     337.0,
+     114.0
+    ],
+    [
+     338.0,
+     114.0
+    ],
+    [
+     338.0,
+     113.0
+    ],
+    [
+     339.0,
+     113.0
+    ],
+    [
+     339.0,
+     112.0
+    ],
+    [
+     341.0,
+     112.0
+    ],
+    [
+     341.0,
+     113.0
+    ],
+    [
+     347.0,
+     113.0
+    ],
+    [
+     347.0,
+     114.0
+    ],
+    [
+     351.0,
+     114.0
+    ],
+    [
+     351.0,
+     115.0
+    ],
+    [
+     353.0,
+     115.0
+    ],
+    [
+     353.0,
+     116.0
+    ],
+    [
+     355.0,
+     116.0
+    ],
+    [
+     355.0,
+     115.0
+    ],
+    [
+     357.0,
+     115.0
+    ],
+    [
+     357.0,
+     114.0
+    ],
+    [
+     361.0,
+     114.0
+    ],
+    [
+     361.0,
+     113.0
+    ],
+    [
+     363.0,
+     113.0
+    ],
+    [
+     363.0,
+     112.0
+    ],
+    [
+     364.0,
+     112.0
+    ],
+    [
+     364.0,
+     110.0
+    ],
+    [
+     365.0,
+     110.0
+    ],
+    [
+     365.0,
+     105.0
+    ],
+    [
+     366.0,
+     105.0
+    ],
+    [
+     366.0,
+     101.0
+    ],
+    [
+     365.0,
+     101.0
+    ],
+    [
+     365.0,
+     99.0
+    ],
+    [
+     364.0,
+     99.0
+    ],
+    [
+     364.0,
+     98.0
+    ],
+    [
+     363.0,
+     98.0
+    ],
+    [
+     363.0,
+     96.0
+    ],
+    [
+     362.0,
+     96.0
+    ],
+    [
+     362.0,
+     95.0
+    ],
+    [
+     361.0,
+     95.0
+    ],
+    [
+     361.0,
+     93.0
+    ],
+    [
+     359.0,
+     93.0
+    ],
+    [
+     359.0,
+     92.0
+    ],
+    [
+     358.0,
+     92.0
+    ],
+    [
+     358.0,
+     90.0
+    ],
+    [
+     356.0,
+     90.0
+    ],
+    [
+     356.0,
+     89.0
+    ],
+    [
+     353.0,
+     89.0
+    ],
+    [
+     353.0,
+     88.0
+    ],
+    [
+     350.0,
+     88.0
+    ],
+    [
+     350.0,
+     87.0
+    ],
+    [
+     347.0,
+     87.0
+    ],
+    [
+     347.0,
+     88.0
+    ],
+    [
+     343.0,
+     88.0
+    ],
+    [
+     343.0,
+     87.0
+    ],
+    [
+     341.0,
+     87.0
+    ],
+    [
+     341.0,
+     86.0
+    ]
+   ],
+   "huecos_rellenados": 0,
+   "huecos_rellenados_px": 0.0,
+   "huecos_relevantes": 0,
+   "huecos_relevantes_px": 0.0,
+   "area_px": 798.0,
+   "decision": "aceptado"
+  },
+  {
+   "id": 2,
+   "pixeles": 87,
+   "caja": [
+    310,
+    105,
+    320,
+    117
+   ],
+   "ndsi_mediana": 0.7419,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 0,
+   "toca_borde": false,
+   "b8_mediana": 0.2813,
+   "fraccion_agua": 0.0,
+   "fuente_agua": "SCL=6",
+   "motivos": [],
+   "vertices": [
+    [
+     315.0,
+     105.0
+    ],
+    [
+     315.0,
+     106.0
+    ],
+    [
+     313.0,
+     106.0
+    ],
+    [
+     313.0,
+     107.0
+    ],
+    [
+     312.0,
+     107.0
+    ],
+    [
+     312.0,
+     108.0
+    ],
+    [
+     311.0,
+     108.0
+    ],
+    [
+     311.0,
+     110.0
+    ],
+    [
+     310.0,
+     110.0
+    ],
+    [
+     310.0,
+     113.0
+    ],
+    [
+     311.0,
+     113.0
+    ],
+    [
+     311.0,
+     115.0
+    ],
+    [
+     312.0,
+     115.0
+    ],
+    [
+     312.0,
+     116.0
+    ],
+    [
+     314.0,
+     116.0
+    ],
+    [
+     314.0,
+     117.0
+    ],
+    [
+     316.0,
+     117.0
+    ],
+    [
+     316.0,
+     116.0
+    ],
+    [
+     318.0,
+     116.0
+    ],
+    [
+     318.0,
+     115.0
+    ],
+    [
+     319.0,
+     115.0
+    ],
+    [
+     319.0,
+     109.0
+    ],
+    [
+     320.0,
+     109.0
+    ],
+    [
+     320.0,
+     106.0
+    ],
+    [
+     319.0,
+     106.0
+    ],
+    [
+     319.0,
+     105.0
+    ]
+   ],
+   "huecos_rellenados": 0,
+   "huecos_rellenados_px": 0.0,
+   "huecos_relevantes": 0,
+   "huecos_relevantes_px": 0.0,
+   "area_px": 87.0,
+   "decision": "aceptado"
+  },
+  {
+   "id": 3,
+   "pixeles": 8,
+   "caja": [
+    363,
+    213,
+    367,
+    216
+   ],
+   "ndsi_mediana": 0.4468,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 0,
+   "toca_borde": false,
+   "b8_mediana": 0.046,
+   "fraccion_agua": 0.25,
+   "fuente_agua": "SCL=6",
+   "motivos": [
+    "oscuro_sin_corroboracion"
+   ],
+   "vertices": [
+    [
+     363.0,
+     213.0
+    ],
+    [
+     363.0,
+     215.0
+    ],
+    [
+     365.0,
+     215.0
+    ],
+    [
+     365.0,
+     216.0
+    ],
+    [
+     366.0,
+     216.0
+    ],
+    [
+     366.0,
+     215.0
+    ],
+    [
+     367.0,
+     215.0
+    ],
+    [
+     367.0,
+     214.0
+    ],
+    [
+     366.0,
+     214.0
+    ],
+    [
+     366.0,
+     213.0
+    ]
+   ],
+   "huecos_rellenados": 0,
+   "huecos_rellenados_px": 0.0,
+   "huecos_relevantes": 0,
+   "huecos_relevantes_px": 0.0,
+   "area_px": 8.0,
+   "decision": "ambiguo"
+  },
+  {
+   "id": 4,
+   "pixeles": 188,
+   "caja": [
+    271,
+    248,
+    285,
+    269
+   ],
+   "ndsi_mediana": 0.7353,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 0,
+   "toca_borde": false,
+   "b8_mediana": 0.1452,
+   "fraccion_agua": 0.0053,
+   "fuente_agua": "SCL=6",
+   "motivos": [],
+   "vertices": [
+    [
+     273.0,
+     248.0
+    ],
+    [
+     273.0,
+     249.0
+    ],
+    [
+     272.0,
+     249.0
+    ],
+    [
+     272.0,
+     250.0
+    ],
+    [
+     271.0,
+     250.0
+    ],
+    [
+     271.0,
+     255.0
+    ],
+    [
+     272.0,
+     255.0
+    ],
+    [
+     272.0,
+     256.0
+    ],
+    [
+     273.0,
+     256.0
+    ],
+    [
+     273.0,
+     258.0
+    ],
+    [
+     272.0,
+     258.0
+    ],
+    [
+     272.0,
+     259.0
+    ],
+    [
+     273.0,
+     259.0
+    ],
+    [
+     273.0,
+     262.0
+    ],
+    [
+     274.0,
+     262.0
+    ],
+    [
+     274.0,
+     264.0
+    ],
+    [
+     275.0,
+     264.0
+    ],
+    [
+     275.0,
+     266.0
+    ],
+    [
+     276.0,
+     266.0
+    ],
+    [
+     276.0,
+     268.0
+    ],
+    [
+     278.0,
+     268.0
+    ],
+    [
+     278.0,
+     269.0
+    ],
+    [
+     281.0,
+     269.0
+    ],
+    [
+     281.0,
+     267.0
+    ],
+    [
+     282.0,
+     267.0
+    ],
+    [
+     282.0,
+     264.0
+    ],
+    [
+     283.0,
+     264.0
+    ],
+    [
+     283.0,
+     263.0
+    ],
+    [
+     284.0,
+     263.0
+    ],
+    [
+     284.0,
+     261.0
+    ],
+    [
+     285.0,
+     261.0
+    ],
+    [
+     285.0,
+     257.0
+    ],
+    [
+     284.0,
+     257.0
+    ],
+    [
+     284.0,
+     256.0
+    ],
+    [
+     283.0,
+     256.0
+    ],
+    [
+     283.0,
+     255.0
+    ],
+    [
+     282.0,
+     255.0
+    ],
+    [
+     282.0,
+     253.0
+    ],
+    [
+     281.0,
+     253.0
+    ],
+    [
+     281.0,
+     252.0
+    ],
+    [
+     280.0,
+     252.0
+    ],
+    [
+     280.0,
+     251.0
+    ],
+    [
+     279.0,
+     251.0
+    ],
+    [
+     279.0,
+     250.0
+    ],
+    [
+     278.0,
+     250.0
+    ],
+    [
+     278.0,
+     249.0
+    ],
+    [
+     277.0,
+     249.0
+    ],
+    [
+     277.0,
+     248.0
+    ]
+   ],
+   "huecos_rellenados": 0,
+   "huecos_rellenados_px": 0.0,
+   "huecos_relevantes": 0,
+   "huecos_relevantes_px": 0.0,
+   "area_px": 188.0,
+   "decision": "aceptado"
+  },
+  {
+   "id": 5,
+   "pixeles": 2,
+   "caja": [
+    238,
+    261,
+    240,
+    262
+   ],
+   "ndsi_mediana": 0.4348,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 0,
+   "toca_borde": false,
+   "b8_mediana": 0.2544,
+   "fraccion_agua": 0.0,
+   "fuente_agua": "SCL=6",
+   "motivos": [
+    "bajo_minimo"
+   ],
+   "vertices": [
+    [
+     238.0,
+     261.0
+    ],
+    [
+     238.0,
+     262.0
+    ],
+    [
+     240.0,
+     262.0
+    ],
+    [
+     240.0,
+     261.0
+    ]
+   ],
+   "huecos_rellenados": 0,
+   "huecos_rellenados_px": 0.0,
+   "huecos_relevantes": 0,
+   "huecos_relevantes_px": 0.0,
+   "area_px": 2.0,
+   "decision": "ambiguo"
+  },
+  {
+   "id": 6,
+   "pixeles": 90,
+   "caja": [
+    294,
+    271,
+    313,
+    280
+   ],
+   "ndsi_mediana": 0.673,
+   "fraccion_util": 0.5556,
+   "contacto_ocultacion_px": 0,
+   "toca_borde": false,
+   "b8_mediana": 0.0745,
+   "fraccion_agua": 0.0889,
+   "fuente_agua": "SCL=6",
+   "motivos": [
+    "util_insuficiente",
+    "oscuro_sin_corroboracion"
+   ],
+   "vertices": [
+    [
+     301.0,
+     271.0
+    ],
+    [
+     301.0,
+     272.0
+    ],
+    [
+     300.0,
+     272.0
+    ],
+    [
+     300.0,
+     273.0
+    ],
+    [
+     295.0,
+     273.0
+    ],
+    [
+     295.0,
+     274.0
+    ],
+    [
+     294.0,
+     274.0
+    ],
+    [
+     294.0,
+     276.0
+    ],
+    [
+     295.0,
+     276.0
+    ],
+    [
+     295.0,
+     277.0
+    ],
+    [
+     297.0,
+     277.0
+    ],
+    [
+     297.0,
+     278.0
+    ],
+    [
+     305.0,
+     278.0
+    ],
+    [
+     305.0,
+     277.0
+    ],
+    [
+     308.0,
+     277.0
+    ],
+    [
+     308.0,
+     278.0
+    ],
+    [
+     310.0,
+     278.0
+    ],
+    [
+     310.0,
+     279.0
+    ],
+    [
+     311.0,
+     279.0
+    ],
+    [
+     311.0,
+     280.0
+    ],
+    [
+     313.0,
+     280.0
+    ],
+    [
+     313.0,
+     278.0
+    ],
+    [
+     312.0,
+     278.0
+    ],
+    [
+     312.0,
+     277.0
+    ],
+    [
+     311.0,
+     277.0
+    ],
+    [
+     311.0,
+     276.0
+    ],
+    [
+     310.0,
+     276.0
+    ],
+    [
+     310.0,
+     275.0
+    ],
+    [
+     309.0,
+     275.0
+    ],
+    [
+     309.0,
+     274.0
+    ],
+    [
+     308.0,
+     274.0
+    ],
+    [
+     308.0,
+     272.0
+    ],
+    [
+     306.0,
+     272.0
+    ],
+    [
+     306.0,
+     271.0
+    ]
+   ],
+   "huecos_rellenados": 0,
+   "huecos_rellenados_px": 0.0,
+   "huecos_relevantes": 0,
+   "huecos_relevantes_px": 0.0,
+   "area_px": 90.0,
+   "decision": "ambiguo"
+  },
+  {
+   "id": 7,
+   "pixeles": 3,
+   "caja": [
+    24,
+    284,
+    27,
+    285
+   ],
+   "ndsi_mediana": 0.4249,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 0,
+   "toca_borde": false,
+   "b8_mediana": 0.0054,
+   "fraccion_agua": 1.0,
+   "fuente_agua": "SCL=6",
+   "motivos": [
+    "agua_inequivoca"
+   ],
+   "vertices": null,
+   "decision": "agua"
+  },
+  {
+   "id": 8,
+   "pixeles": 6,
+   "caja": [
+    393,
+    327,
+    396,
+    329
+   ],
+   "ndsi_mediana": 0.4271,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 0,
+   "toca_borde": false,
+   "b8_mediana": 0.0048,
+   "fraccion_agua": 1.0,
+   "fuente_agua": "SCL=6",
+   "motivos": [
+    "agua_inequivoca"
+   ],
+   "vertices": null,
+   "decision": "agua"
+  },
+  {
+   "id": 9,
+   "pixeles": 3,
+   "caja": [
+    388,
+    329,
+    391,
+    330
+   ],
+   "ndsi_mediana": 0.4483,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 0,
+   "toca_borde": false,
+   "b8_mediana": 0.003,
+   "fraccion_agua": 1.0,
+   "fuente_agua": "SCL=6",
+   "motivos": [
+    "agua_inequivoca"
+   ],
+   "vertices": null,
+   "decision": "agua"
+  },
+  {
+   "id": 10,
+   "pixeles": 25,
+   "caja": [
+    394,
+    334,
+    399,
+    343
+   ],
+   "ndsi_mediana": 0.4807,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 11,
+   "toca_borde": false,
+   "b8_mediana": 0.0003,
+   "fraccion_agua": 1.0,
+   "fuente_agua": "SCL=6",
+   "motivos": [
+    "agua_inequivoca"
+   ],
+   "vertices": null,
+   "decision": "agua"
+  },
+  {
+   "id": 11,
+   "pixeles": 2,
+   "caja": [
+    384,
+    335,
+    385,
+    337
+   ],
+   "ndsi_mediana": 0.4272,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 0,
+   "toca_borde": false,
+   "b8_mediana": 0.0011,
+   "fraccion_agua": 1.0,
+   "fuente_agua": "SCL=6",
+   "motivos": [
+    "agua_inequivoca"
+   ],
+   "vertices": null,
+   "decision": "agua"
+  },
+  {
+   "id": 12,
+   "pixeles": 2,
+   "caja": [
+    393,
+    336,
+    394,
+    338
+   ],
+   "ndsi_mediana": 0.4021,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 9,
+   "toca_borde": false,
+   "b8_mediana": 0.0,
+   "fraccion_agua": 1.0,
+   "fuente_agua": "SCL=6",
+   "motivos": [
+    "agua_inequivoca"
+   ],
+   "vertices": null,
+   "decision": "agua"
+  },
+  {
+   "id": 13,
+   "pixeles": 16,
+   "caja": [
+    383,
+    337,
+    387,
+    344
+   ],
+   "ndsi_mediana": 0.4473,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 2,
+   "toca_borde": false,
+   "b8_mediana": 0.0007,
+   "fraccion_agua": 1.0,
+   "fuente_agua": "SCL=6",
+   "motivos": [
+    "agua_inequivoca"
+   ],
+   "vertices": null,
+   "decision": "agua"
+  },
+  {
+   "id": 14,
+   "pixeles": 6,
+   "caja": [
+    391,
+    342,
+    394,
+    345
+   ],
+   "ndsi_mediana": 0.4337,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 3,
+   "toca_borde": false,
+   "b8_mediana": 0.0006,
+   "fraccion_agua": 1.0,
+   "fuente_agua": "SCL=6",
+   "motivos": [
+    "agua_inequivoca"
+   ],
+   "vertices": null,
+   "decision": "agua"
+  },
+  {
+   "id": 15,
+   "pixeles": 3,
+   "caja": [
+    384,
+    345,
+    386,
+    347
+   ],
+   "ndsi_mediana": 0.5469,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 0,
+   "toca_borde": false,
+   "b8_mediana": 0.0018,
+   "fraccion_agua": 1.0,
+   "fuente_agua": "SCL=6",
+   "motivos": [
+    "agua_inequivoca"
+   ],
+   "vertices": null,
+   "decision": "agua"
+  },
+  {
+   "id": 16,
+   "pixeles": 26,
+   "caja": [
+    317,
+    384,
+    324,
+    389
+   ],
+   "ndsi_mediana": 0.5817,
+   "fraccion_util": 0.5,
+   "contacto_ocultacion_px": 13,
+   "toca_borde": false,
+   "b8_mediana": 0.0093,
+   "fraccion_agua": 0.4231,
+   "fuente_agua": "SCL=6",
+   "motivos": [
+    "util_insuficiente",
+    "contacto_ocultacion",
+    "oscuro_sin_corroboracion"
+   ],
+   "vertices": [
+    [
+     319.0,
+     384.0
+    ],
+    [
+     319.0,
+     385.0
+    ],
+    [
+     318.0,
+     385.0
+    ],
+    [
+     318.0,
+     387.0
+    ],
+    [
+     317.0,
+     387.0
+    ],
+    [
+     317.0,
+     388.0
+    ],
+    [
+     319.0,
+     388.0
+    ],
+    [
+     319.0,
+     389.0
+    ],
+    [
+     322.0,
+     389.0
+    ],
+    [
+     322.0,
+     388.0
+    ],
+    [
+     324.0,
+     388.0
+    ],
+    [
+     324.0,
+     385.0
+    ],
+    [
+     323.0,
+     385.0
+    ],
+    [
+     323.0,
+     384.0
+    ]
+   ],
+   "huecos_rellenados": 0,
+   "huecos_rellenados_px": 0.0,
+   "huecos_relevantes": 0,
+   "huecos_relevantes_px": 0.0,
+   "area_px": 26.0,
+   "decision": "ambiguo"
+  },
+  {
+   "id": 17,
+   "pixeles": 2,
+   "caja": [
+    418,
+    505,
+    419,
+    507
+   ],
+   "ndsi_mediana": 0.4675,
+   "fraccion_util": 1.0,
+   "contacto_ocultacion_px": 0,
+   "toca_borde": false,
+   "b8_mediana": 0.0088,
+   "fraccion_agua": 0.5,
+   "fuente_agua": "SCL=6",
+   "motivos": [
+    "bajo_minimo",
+    "oscuro_sin_corroboracion"
+   ],
+   "vertices": [
+    [
+     418.0,
+     505.0
+    ],
+    [
+     418.0,
+     507.0
+    ],
+    [
+     419.0,
+     507.0
+    ],
+    [
+     419.0,
+     505.0
+    ]
+   ],
+   "huecos_rellenados": 0,
+   "huecos_rellenados_px": 0.0,
+   "huecos_relevantes": 0,
+   "huecos_relevantes_px": 0.0,
+   "area_px": 2.0,
+   "decision": "ambiguo"
+  }
+ ],
+ "txt": null,
+ "sha256_txt": null,
+ "nota": "La aprobación automática indica cumplimiento de reglas; no es verificación glaciológica.",
+ "area_pseudoetiquetada_m2": 0.0
+}

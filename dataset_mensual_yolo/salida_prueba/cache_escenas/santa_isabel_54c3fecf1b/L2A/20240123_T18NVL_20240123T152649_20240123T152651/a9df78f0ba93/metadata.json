@@ -1,0 +1,333 @@
+{
+ "estado": "completa",
+ "nombre_escena": "20240123_T18NVL_20240123T152649_20240123T152651",
+ "clave": "20240123_T18NVL_20240123T152649_20240123T152651",
+ "perfil": "L2A",
+ "nivel": "L2A reflectancia de superficie",
+ "id_asset": "COPERNICUS/S2_SR_HARMONIZED/20240123T152649_20240123T152651_T18NVL",
+ "system_index": "20240123T152649_20240123T152651_T18NVL",
+ "coleccion": "COPERNICUS/S2_SR_HARMONIZED",
+ "metodo_qa": "SCL clases útiles 4,5,6,11",
+ "coleccion_qa": "COPERNICUS/S2_SR_HARMONIZED",
+ "satelite": "Sentinel-2B",
+ "tesela": "18NVL",
+ "orbita_relativa": 25,
+ "baseline": "05.10",
+ "nube_granulo_pct": 5.860316,
+ "adquisicion_utc": "2024-01-23T15:31:47Z",
+ "grupo_temporal": "santa_isabel_54c3fecf1b_20240123",
+ "aoi": {
+  "id_aoi": "santa_isabel_54c3fecf1b",
+  "malla": {
+   "crs": "EPSG:32618",
+   "transform": [
+    10.0,
+    0.0,
+    455970.0,
+    0.0,
+    -10.0,
+    533560.0
+   ],
+   "ancho": 545,
+   "alto": 598,
+   "resolucion_m": 10.0,
+   "limites": [
+    455970.0,
+    527580.0,
+    461420.0,
+    533560.0
+   ]
+  },
+  "aoi_wgs84": [
+   -75.397,
+   4.773,
+   -75.348,
+   4.827
+  ],
+  "nucleo_wgs84": [
+   -75.385,
+   4.775,
+   -75.348,
+   4.827
+  ],
+  "sectores": {
+   "norte": [
+    -75.385,
+    4.809666666666667,
+    -75.348,
+    4.827
+   ],
+   "centro": [
+    -75.385,
+    4.792333333333334,
+    -75.348,
+    4.809666666666667
+   ],
+   "sur": [
+    -75.385,
+    4.775,
+    -75.348,
+    4.792333333333334
+   ]
+  }
+ },
+ "malla": {
+  "crs": "EPSG:32618",
+  "transform": [
+   10.0,
+   0.0,
+   455970.0,
+   0.0,
+   -10.0,
+   533560.0
+  ],
+  "ancho": 545,
+  "alto": 598,
+  "resolucion_m": 10.0,
+  "limites": [
+   455970.0,
+   527580.0,
+   461420.0,
+   533560.0
+  ]
+ },
+ "bandas": {
+  "reflectancia.tif": [
+   "B2",
+   "B3",
+   "B4",
+   "B8",
+   "B11"
+  ],
+  "qa.tif": [
+   "SCL"
+  ],
+  "indices.tif": [
+   "NDSI",
+   "NDVI"
+  ],
+  "calidad.tif": [
+   "calidad"
+  ],
+  "soporte_png.tif": [
+   "soporte"
+  ]
+ },
+ "orden_canales": {
+  "rgb": [
+   "R=B4",
+   "G=B3",
+   "B=B2"
+  ],
+  "espectral": [
+   "R=NDSI",
+   "G=NDVI",
+   "B=B4"
+  ]
+ },
+ "resolucion_nativa_m": {
+  "B2": 10,
+  "B3": 10,
+  "B4": 10,
+  "B8": 10,
+  "B11": 20,
+  "SCL": 20,
+  "cs_cdf": 10
+ },
+ "remuestreo": {
+  "B2": "bilinear",
+  "B3": "bilinear",
+  "B4": "bilinear",
+  "B8": "bilinear",
+  "B11": "bilinear",
+  "SCL": "nearest"
+ },
+ "porcentajes": {
+  "inventario_20m": {
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 97.7113,
+   "util_sectores_pct": {
+    "norte": 96.7533,
+    "centro": 96.7581,
+    "sur": 98.4705
+   },
+   "peor_sector_pct": 96.7533
+  },
+  "local_10m": {
+   "cobertura_pct": 99.999,
+   "util_pct": 97.706,
+   "soporte_png_pct": 99.951,
+   "saturacion_rgb_pct": 0.001,
+   "saturacion_por_canal_pct": {
+    "R": 0.001,
+    "G": 0.0,
+    "B": 0.0
+   }
+  },
+  "regiones_local_10m": {
+   "aoi": {
+    "total_px": 324171,
+    "cobertura_pct": 99.9991,
+    "util_pct": 97.6577
+   },
+   "norte": {
+    "total_px": 78310,
+    "cobertura_pct": 99.9987,
+    "util_pct": 96.7412
+   },
+   "centro": {
+    "total_px": 78720,
+    "cobertura_pct": 99.9975,
+    "util_pct": 96.6273
+   },
+   "sur": {
+    "total_px": 78691,
+    "cobertura_pct": 100.0,
+    "util_pct": 98.47
+   }
+  }
+ },
+ "receta": {
+  "version": "2.0",
+  "huella": "a9df78f0ba93",
+  "detalle": {
+   "version": "2.0",
+   "perfil": "L2A",
+   "coleccion": "COPERNICUS/S2_SR_HARMONIZED",
+   "producto_qa": "SCL",
+   "id_aoi": "santa_isabel_54c3fecf1b",
+   "malla": {
+    "crs": "EPSG:32618",
+    "transform": [
+     10.0,
+     0.0,
+     455970.0,
+     0.0,
+     -10.0,
+     533560.0
+    ],
+    "ancho": 545,
+    "alto": 598,
+    "resolucion_m": 10.0,
+    "limites": [
+     455970.0,
+     527580.0,
+     461420.0,
+     533560.0
+    ]
+   },
+   "bandas_reflectancia": [
+    "B2",
+    "B3",
+    "B4",
+    "B8",
+    "B11"
+   ],
+   "escala_reflectancia": 0.0001,
+   "remuestreo": {
+    "B2": "bilinear",
+    "B3": "bilinear",
+    "B4": "bilinear",
+    "B8": "bilinear",
+    "B11": "bilinear",
+    "SCL": "nearest"
+   },
+   "mascara_remuestreo": "píxel válido solo si la máscara remuestreada es 1 (no se interpolan rellenos)",
+   "nodata": {
+    "reflectancia": -9999.0,
+    "indices": -9999.0,
+    "calidad": 0,
+    "soporte_png": 0,
+    "qa": null
+   },
+   "indices": {
+    "NDSI": "(B3-B11)/(B3+B11)",
+    "NDVI": "(B8-B4)/(B8+B4)",
+    "denominador_cero": "NoData"
+   },
+   "calidad": {
+    "scl_admitidas": [
+     4,
+     5,
+     6,
+     11
+    ],
+    "scl_excluidas": [
+     0,
+     1,
+     2,
+     3,
+     7,
+     8,
+     9,
+     10
+    ],
+    "codigos": {
+     "0": "exterior o sin observación completa",
+     "1": "observado y no visible",
+     "2": "observado y visible"
+    }
+   },
+   "png": {
+    "rgb": "R=B4,G=B3,B=B2; round(255*clip(refl/0.60,0,1))",
+    "espectral": "R=NDSI,G=NDVI: round(255*(clip(i,-1,1)+1)/2); B=B4 escala RGB",
+    "redondeo": "floor(x+0.5)",
+    "fuera_de_soporte": [
+     0,
+     0,
+     0
+    ]
+   },
+   "huella": "a9df78f0ba93"
+  }
+ },
+ "versiones_paquetes": {
+  "python": "3.11.15",
+  "numpy": "2.4.6",
+  "rasterio": "1.4.4",
+  "pillow": "12.3.0",
+  "shapely": "2.1.2",
+  "earthengine-api": "1.7.35"
+ },
+ "rutas": {
+  "reflectancia": "reflectancia.tif",
+  "qa": "qa.tif",
+  "indices": "indices.tif",
+  "calidad": "calidad.tif",
+  "soporte_png": "soporte_png.tif",
+  "rgb": "rgb/20240123_T18NVL_20240123T152649_20240123T152651.png",
+  "espectral": "espectral/20240123_T18NVL_20240123T152649_20240123T152651.png"
+ },
+ "creado_utc": "2026-11-23T00:39:52Z",
+ "atribucion": "Contiene datos modificados de Copernicus Sentinel-2 (2024) procesados mediante Google Earth Engine (COPERNICUS/S2_SR_HARMONIZED).",
+ "archivos": {
+  "reflectancia.tif": {
+   "sha256": "ccb439bbd744550bd6a8ded68a5cc677836344fafb3c560be9b62f380c02d38f",
+   "bytes": 3896109
+  },
+  "qa.tif": {
+   "sha256": "38bfc026c75f6f7afa2ddc38b760a3bd0f54b8be2c7002f82c489a6ea51089a0",
+   "bytes": 9829
+  },
+  "indices.tif": {
+   "sha256": "0e8518e7eda7c42806e2b21f617b6ca11c0230c0a75cca87d8404a9fea932e1a",
+   "bytes": 2351759
+  },
+  "calidad.tif": {
+   "sha256": "a41c601c429028a291257af4d5e5e7bd2b696c23cb6d8e9b923257509fcad35f",
+   "bytes": 3967
+  },
+  "soporte_png.tif": {
+   "sha256": "e5ab74de1bb8a9aae00e99b66301f6b13508fd87b7022ecae166c1072fd434f3",
+   "bytes": 2300
+  },
+  "rgb/20240123_T18NVL_20240123T152649_20240123T152651.png": {
+   "sha256": "a62f1afb7ebb1a7540f3d45d99b0a84d122b9c2c28e4ff0e6b3dcafe0de2c646",
+   "bytes": 477371
+  },
+  "espectral/20240123_T18NVL_20240123T152649_20240123T152651.png": {
+   "sha256": "6d9be415c5883a71a3a3895359c47238250badc2a3073faa49cc9442fe00c053",
+   "bytes": 535159
+  }
+ }
+}

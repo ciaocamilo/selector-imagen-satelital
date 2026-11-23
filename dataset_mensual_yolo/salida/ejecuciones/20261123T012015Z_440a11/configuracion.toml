@@ -1,0 +1,84 @@
+
+[periodo]
+anio_inicio = 2016
+anio_fin = 2026
+corte_utc = ""
+meses = []
+
+[aoi]
+nombre = "santa_isabel"
+caja_wgs84 = [-75.397, 4.773, -75.348, 4.827]
+crs = "EPSG:32618"
+resolucion_m = 10
+
+[nucleo]
+caja_wgs84 = [-75.385, 4.775, -75.348, 4.827]
+sectores = 3
+
+[clase]
+id = 0
+nombre = "nieve_hielo_visible"
+
+[fuentes]
+modo = "l2a_preferente"
+inicio_l2a = "2017-03-28"
+cs_cdf_min = 0.6
+
+[preseleccion]
+resolucion_m = 20
+min_cobertura_aoi_pct = 95.0
+min_util_aoi_pct = 70.0
+min_util_sector_pct = 80.0
+max_descargas_mes = 0
+
+[etiquetas]
+mascara_agua_geojson = ""
+
+[etiquetas.L2A]
+ndsi_min = 0.4
+ndsi_min_negativa = 0.3
+min_pixeles = 5
+min_util_componente = 0.8
+hueco_relleno_max_px = 4
+agua_fraccion_min = 0.9
+agua_b8_max = 0.1
+oscuro_b8_max = 0.1
+negativa_min_sector_pct = 99.0
+conectividad_anillo = 8
+ambiguos_bloquean = false
+
+[etiquetas.L1C]
+ndsi_min = 0.4
+ndsi_min_negativa = 0.3
+min_pixeles = 5
+min_util_componente = 0.8
+hueco_relleno_max_px = 4
+agua_fraccion_min = 0.9
+agua_b8_max = 0.1
+oscuro_b8_max = 0.1
+negativa_min_sector_pct = 99.0
+conectividad_anillo = 8
+ambiguos_bloquean = false
+
+[particiones]
+frac_train = 0.7
+frac_val = 0.15
+corte_val = ""
+corte_test = ""
+conservar_cortes_publicados = true
+
+[salida]
+directorio = "salida"
+enlaces = "fisico"
+verificar_ultralytics = true
+
+[gee]
+proyecto = ""
+tam_bloque = 512
+timeout_s = 180
+max_intentos = 4
+filas_pagina = 50
+
+[ejecucion]
+reintentar_pendientes = true
+refrescar_provisional = true

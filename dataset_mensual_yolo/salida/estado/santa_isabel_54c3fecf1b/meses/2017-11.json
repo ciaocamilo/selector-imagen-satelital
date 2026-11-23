@@ -1,0 +1,155 @@
+{
+ "mes": "2017-11",
+ "inicio_utc": "2017-11-01T00:00:00Z",
+ "fin_exclusivo_utc": "2017-12-01T00:00:00Z",
+ "estado_temporal": "cerrado",
+ "provisional": false,
+ "huella_mes": "7fb9294debd8",
+ "id_ejecucion": "20261123T012015Z_440a11",
+ "procesado_utc": "2026-11-23T01:20:16Z",
+ "seleccion_incompleta": false,
+ "candidatos": [
+  {
+   "mes": "2017-11",
+   "perfil": "L1C",
+   "orden": null,
+   "id": "COPERNICUS/S2_HARMONIZED/20171105T153059_20171105T153059_T18NVL",
+   "adquisicion_utc": "2017-11-05T15:30:59Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 1.6068,
+   "util_sectores_pct": {
+    "norte": 0.0,
+    "centro": 0.0,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 52.683,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20171105_T18NVL_20171105T153059_20171105T153059_l1c",
+   "decision": null,
+   "t": 1509895859460
+  },
+  {
+   "mes": "2017-11",
+   "perfil": "L1C",
+   "orden": null,
+   "id": "COPERNICUS/S2_HARMONIZED/20171110T153111_20171110T153111_T18NVL",
+   "adquisicion_utc": "2017-11-10T15:31:11Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 0.0,
+   "util_sectores_pct": {
+    "norte": 0.0,
+    "centro": 0.0,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 76.4842,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20171110_T18NVL_20171110T153111_20171110T153111_l1c",
+   "decision": null,
+   "t": 1510327871460
+  },
+  {
+   "mes": "2017-11",
+   "perfil": "L1C",
+   "orden": null,
+   "id": "COPERNICUS/S2_HARMONIZED/20171115T152629_20171115T152626_T18NVL",
+   "adquisicion_utc": "2017-11-15T15:26:26Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 0.0,
+   "util_sectores_pct": {
+    "norte": 0.0,
+    "centro": 0.0,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 91.4726,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20171115_T18NVL_20171115T152629_20171115T152626_l1c",
+   "decision": null,
+   "t": 1510759586460
+  },
+  {
+   "mes": "2017-11",
+   "perfil": "L1C",
+   "orden": null,
+   "id": "COPERNICUS/S2_HARMONIZED/20171120T152641_20171120T152635_T18NVL",
+   "adquisicion_utc": "2017-11-20T15:26:35Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 3.4095,
+   "util_sectores_pct": {
+    "norte": 0.5306,
+    "centro": 9.9034,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 96.07,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20171120_T18NVL_20171120T152641_20171120T152635_l1c",
+   "decision": null,
+   "t": 1511191595460
+  },
+  {
+   "mes": "2017-11",
+   "perfil": "L1C",
+   "orden": null,
+   "id": "COPERNICUS/S2_HARMONIZED/20171130T153111_20171130T153107_T18NVL",
+   "adquisicion_utc": "2017-11-30T15:31:07Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 18.9949,
+   "util_sectores_pct": {
+    "norte": 12.791,
+    "centro": 40.7216,
+    "sur": 19.223
+   },
+   "peor_sector_pct": 12.791,
+   "nube_granulo_pct": 70.5155,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20171130_T18NVL_20171130T153111_20171130T153107_l1c",
+   "decision": null,
+   "t": 1512055867460
+  }
+ ],
+ "escena": null,
+ "etiqueta": null,
+ "perfil": "L1C",
+ "ruta_fuentes": "L2A preferente; L1C solo si el inventario L2A está vacío · L2A vacío → L1C",
+ "inventario": "caché",
+ "estado": "sin_escena_viable",
+ "motivo": "ninguna adquisición cumple visibilidad en AOI y cumbres"
+}

@@ -1,0 +1,155 @@
+{
+ "mes": "2024-04",
+ "inicio_utc": "2024-04-01T00:00:00Z",
+ "fin_exclusivo_utc": "2024-05-01T00:00:00Z",
+ "estado_temporal": "cerrado",
+ "provisional": false,
+ "huella_mes": "7fb9294debd8",
+ "id_ejecucion": "20261123T012015Z_440a11",
+ "procesado_utc": "2026-11-23T01:21:34Z",
+ "seleccion_incompleta": false,
+ "candidatos": [
+  {
+   "mes": "2024-04",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20240402T152649_20240402T152907_T18NVL",
+   "adquisicion_utc": "2024-04-02T15:31:46Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 0.0,
+   "util_sectores_pct": {
+    "norte": 0.0,
+    "centro": 0.0,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 99.876326,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20240402_T18NVL_20240402T152649_20240402T152907",
+   "decision": null,
+   "t": 1712071906755
+  },
+  {
+   "mes": "2024-04",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20240407T152651_20240407T152651_T18NVL",
+   "adquisicion_utc": "2024-04-07T15:31:47Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 14.8251,
+   "util_sectores_pct": {
+    "norte": 9.847,
+    "centro": 11.2195,
+    "sur": 7.8914
+   },
+   "peor_sector_pct": 7.8914,
+   "nube_granulo_pct": 23.862012,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20240407_T18NVL_20240407T152651_20240407T152651",
+   "decision": null,
+   "t": 1712503907074
+  },
+  {
+   "mes": "2024-04",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20240412T152649_20240412T152656_T18NVL",
+   "adquisicion_utc": "2024-04-12T15:31:48Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 47.5747,
+   "util_sectores_pct": {
+    "norte": 60.4955,
+    "centro": 26.7327,
+    "sur": 25.9152
+   },
+   "peor_sector_pct": 25.9152,
+   "nube_granulo_pct": 38.17386,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20240412_T18NVL_20240412T152649_20240412T152656",
+   "decision": null,
+   "t": 1712935908680
+  },
+  {
+   "mes": "2024-04",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20240422T152649_20240422T152652_T18NVL",
+   "adquisicion_utc": "2024-04-22T15:31:48Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 0.0,
+   "util_sectores_pct": {
+    "norte": 0.0,
+    "centro": 0.0,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 99.817365,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20240422_T18NVL_20240422T152649_20240422T152652",
+   "decision": null,
+   "t": 1713799908129
+  },
+  {
+   "mes": "2024-04",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20240427T152701_20240427T152829_T18NVL",
+   "adquisicion_utc": "2024-04-27T15:31:50Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 0.0,
+   "util_sectores_pct": {
+    "norte": 0.0,
+    "centro": 0.0,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 85.052109,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20240427_T18NVL_20240427T152701_20240427T152829",
+   "decision": null,
+   "t": 1714231910682
+  }
+ ],
+ "escena": null,
+ "etiqueta": null,
+ "perfil": "L2A",
+ "ruta_fuentes": "L2A preferente; L1C solo si el inventario L2A está vacío",
+ "inventario": "caché",
+ "estado": "sin_escena_viable",
+ "motivo": "ninguna adquisición cumple visibilidad en AOI y cumbres"
+}

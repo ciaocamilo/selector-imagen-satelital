@@ -1,0 +1,155 @@
+{
+ "mes": "2019-11",
+ "inicio_utc": "2019-11-01T00:00:00Z",
+ "fin_exclusivo_utc": "2019-12-01T00:00:00Z",
+ "estado_temporal": "cerrado",
+ "provisional": false,
+ "huella_mes": "7fb9294debd8",
+ "id_ejecucion": "20261123T012015Z_440a11",
+ "procesado_utc": "2026-11-23T01:20:39Z",
+ "seleccion_incompleta": false,
+ "candidatos": [
+  {
+   "mes": "2019-11",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20191105T152639_20191105T152856_T18NVL",
+   "adquisicion_utc": "2019-11-05T15:31:48Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 0.0037,
+   "util_sectores_pct": {
+    "norte": 0.0,
+    "centro": 0.0,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 61.984923,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20191105_T18NVL_20191105T152639_20191105T152856",
+   "decision": null,
+   "t": 1572967908295
+  },
+  {
+   "mes": "2019-11",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20191110T152641_20191110T153032_T18NVL",
+   "adquisicion_utc": "2019-11-10T15:31:50Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 4.1726,
+   "util_sectores_pct": {
+    "norte": 0.7034,
+    "centro": 0.0,
+    "sur": 0.1372
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 70.745584,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20191110_T18NVL_20191110T152641_20191110T153032",
+   "decision": null,
+   "t": 1573399910639
+  },
+  {
+   "mes": "2019-11",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20191115T152639_20191115T152952_T18NVL",
+   "adquisicion_utc": "2019-11-15T15:31:46Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 0.0,
+   "util_sectores_pct": {
+    "norte": 0.0,
+    "centro": 0.0,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 99.247467,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20191115_T18NVL_20191115T152639_20191115T152952",
+   "decision": null,
+   "t": 1573831906804
+  },
+  {
+   "mes": "2019-11",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20191120T152641_20191120T153103_T18NVL",
+   "adquisicion_utc": "2019-11-20T15:31:49Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 0.0037,
+   "util_sectores_pct": {
+    "norte": 0.0051,
+    "centro": 0.0102,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 77.577871,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20191120_T18NVL_20191120T152641_20191120T153103",
+   "decision": null,
+   "t": 1574263909261
+  },
+  {
+   "mes": "2019-11",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20191130T152641_20191130T153101_T18NVL",
+   "adquisicion_utc": "2019-11-30T15:31:47Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 37.4964,
+   "util_sectores_pct": {
+    "norte": 31.5802,
+    "centro": 30.6047,
+    "sur": 52.3213
+   },
+   "peor_sector_pct": 30.6047,
+   "nube_granulo_pct": 54.872868,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20191130_T18NVL_20191130T152641_20191130T153101",
+   "decision": null,
+   "t": 1575127907270
+  }
+ ],
+ "escena": null,
+ "etiqueta": null,
+ "perfil": "L2A",
+ "ruta_fuentes": "L2A preferente; L1C solo si el inventario L2A está vacío",
+ "inventario": "caché",
+ "estado": "sin_escena_viable",
+ "motivo": "ninguna adquisición cumple visibilidad en AOI y cumbres"
+}

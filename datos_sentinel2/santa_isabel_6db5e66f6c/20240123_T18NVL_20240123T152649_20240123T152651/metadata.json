@@ -1,0 +1,327 @@
+{
+  "estado": "completa",
+  "nombre_escena": "20240123_T18NVL_20240123T152649_20240123T152651",
+  "clave": "20240123_T18NVL_20240123T152649_20240123T152651",
+  "id_asset": "COPERNICUS/S2_SR_HARMONIZED/20240123T152649_20240123T152651_T18NVL",
+  "system_index": "20240123T152649_20240123T152651_T18NVL",
+  "coleccion": "COPERNICUS/S2_SR_HARMONIZED",
+  "satelite": "Sentinel-2B",
+  "tesela": "18NVL",
+  "orbita_relativa": 25,
+  "direccion_orbita": "DESCENDING",
+  "baseline": "05.10",
+  "nube_granulo_pct": 5.860316,
+  "adquisicion_utc": "2024-01-23T15:31:47Z",
+  "grupo_temporal": "santa_isabel_6db5e66f6c_20240123",
+  "consulta": {
+    "fecha_solicitada": "2024-01-15",
+    "ventana_dias": 15,
+    "intervalo_utc_inclusivo": [
+      "2023-12-31",
+      "2024-01-30"
+    ],
+    "distancia_dias": 8
+  },
+  "aoi": {
+    "id_aoi": "santa_isabel_6db5e66f6c",
+    "nombre": "santa_isabel",
+    "geojson_wgs84": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -75.32,
+            4.76
+          ],
+          [
+            -75.32,
+            4.85
+          ],
+          [
+            -75.41,
+            4.85
+          ],
+          [
+            -75.41,
+            4.76
+          ],
+          [
+            -75.32,
+            4.76
+          ]
+        ]
+      ]
+    },
+    "nota": "Encuadre de trabajo; no representa un lindero oficial."
+  },
+  "malla": {
+    "crs": "EPSG:32618",
+    "transform": [
+      10.0,
+      0.0,
+      454530.0,
+      0.0,
+      -10.0,
+      536100.0
+    ],
+    "ancho": 999,
+    "alto": 996,
+    "resolucion_m": 10.0,
+    "limites": [
+      454530.0,
+      526140.0,
+      464520.0,
+      536100.0
+    ]
+  },
+  "bandas": {
+    "reflectancia.tif": [
+      "B2",
+      "B3",
+      "B4",
+      "B8",
+      "B11"
+    ],
+    "indices.tif": [
+      "NDSI",
+      "NDVI"
+    ],
+    "calidad.tif": [
+      "calidad"
+    ],
+    "soporte_png.tif": [
+      "soporte"
+    ]
+  },
+  "orden_canales": {
+    "rgb": [
+      "R=B4",
+      "G=B3",
+      "B=B2"
+    ],
+    "espectral": [
+      "R=NDSI",
+      "G=NDVI",
+      "B=B4"
+    ]
+  },
+  "resolucion_nativa_m": {
+    "B2": 10,
+    "B3": 10,
+    "B4": 10,
+    "B8": 10,
+    "B11": 20,
+    "SCL": 20
+  },
+  "remuestreo": {
+    "B2": "bilinear",
+    "B3": "bilinear",
+    "B4": "bilinear",
+    "B8": "bilinear",
+    "B11": "bilinear",
+    "SCL": "nearest"
+  },
+  "escalas": {
+    "reflectancia": 0.0001,
+    "rgb_max_reflectancia": 0.6,
+    "indices_png": "round(255*(clip(i,-1,1)+1)/2)"
+  },
+  "nodata": {
+    "reflectancia": -9999.0,
+    "indices": -9999.0,
+    "calidad": 0,
+    "soporte_png": 0
+  },
+  "regla_calidad": {
+    "scl_admitidas": [
+      4,
+      5,
+      6,
+      11
+    ],
+    "scl_excluidas": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      8,
+      9,
+      10
+    ],
+    "codigos": {
+      "0": "exterior o sin observación completa",
+      "1": "observado y excluido por SCL",
+      "2": "observado y admitido"
+    },
+    "uso": "solo calidad; SCL nunca es etiqueta de entrenamiento",
+    "advertencia": "SCL puede confundir nieve, nube y sombra"
+  },
+  "porcentajes": {
+    "diagnostico_ee_20m": {
+      "cobertura_pct": 99.99999999993857,
+      "util_pct": 98.84652290642198
+    },
+    "local_10m": {
+      "cobertura_pct": 99.999,
+      "util_pct": 98.844,
+      "soporte_png_pct": 99.867,
+      "saturacion_rgb_pct": 0.0,
+      "saturacion_por_canal_pct": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0
+      }
+    }
+  },
+  "seleccion": {
+    "cumple_umbrales": true,
+    "bajo_umbral_seleccion_manual": false,
+    "umbrales": {
+      "min_cobertura_pct": 95.0,
+      "min_util_pct": 70.0
+    }
+  },
+  "receta": {
+    "version": "1.0",
+    "huella": "01dd051fc0d6",
+    "detalle": {
+      "version": "1.0",
+      "coleccion": "COPERNICUS/S2_SR_HARMONIZED",
+      "id_aoi": "santa_isabel_6db5e66f6c",
+      "malla": {
+        "crs": "EPSG:32618",
+        "transform": [
+          10.0,
+          0.0,
+          454530.0,
+          0.0,
+          -10.0,
+          536100.0
+        ],
+        "ancho": 999,
+        "alto": 996,
+        "resolucion_m": 10.0,
+        "limites": [
+          454530.0,
+          526140.0,
+          464520.0,
+          536100.0
+        ]
+      },
+      "bandas_reflectancia": [
+        "B2",
+        "B3",
+        "B4",
+        "B8",
+        "B11"
+      ],
+      "escala_reflectancia": 0.0001,
+      "remuestreo": {
+        "B2": "bilinear",
+        "B3": "bilinear",
+        "B4": "bilinear",
+        "B8": "bilinear",
+        "B11": "bilinear",
+        "SCL": "nearest"
+      },
+      "mascara_remuestreo": "píxel válido solo si la máscara remuestreada es 1 (no se interpolan rellenos)",
+      "nodata": {
+        "reflectancia": -9999.0,
+        "indices": -9999.0,
+        "calidad": 0,
+        "soporte_png": 0
+      },
+      "indices": {
+        "NDSI": "(B3-B11)/(B3+B11)",
+        "NDVI": "(B8-B4)/(B8+B4)",
+        "denominador_cero": "NoData"
+      },
+      "calidad": {
+        "scl_admitidas": [
+          4,
+          5,
+          6,
+          11
+        ],
+        "scl_excluidas": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          8,
+          9,
+          10
+        ],
+        "codigos": {
+          "0": "exterior o sin observación completa",
+          "1": "observado y excluido por SCL",
+          "2": "observado y admitido"
+        }
+      },
+      "png": {
+        "rgb": "R=B4,G=B3,B=B2; round(255*clip(refl/0.60,0,1))",
+        "espectral": "R=NDSI,G=NDVI: round(255*(clip(i,-1,1)+1)/2); B=B4 escala RGB",
+        "redondeo": "floor(x+0.5)",
+        "fuera_de_soporte": [
+          0,
+          0,
+          0
+        ]
+      },
+      "huella": "01dd051fc0d6"
+    }
+  },
+  "versiones_paquetes": {
+    "earthengine-api": "1.7.35",
+    "geemap": "0.37.1",
+    "ipyleaflet": "0.20.0",
+    "ipywidgets": "8.1.8",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "rasterio": "1.4.4",
+    "pillow": "12.3.0",
+    "requests": "2.34.2",
+    "shapely": "2.1.2",
+    "pyproj": "3.7.2",
+    "matplotlib": "3.11.0",
+    "python": "3.11.15"
+  },
+  "rutas": {
+    "reflectancia": "reflectancia.tif",
+    "indices": "indices.tif",
+    "calidad": "calidad.tif",
+    "soporte_png": "soporte_png.tif",
+    "rgb": "rgb/20240123_T18NVL_20240123T152649_20240123T152651.png",
+    "espectral": "espectral/20240123_T18NVL_20240123T152649_20240123T152651.png"
+  },
+  "creado_utc": "2026-11-22T21:41:05Z",
+  "atribucion": "Contiene datos modificados de Copernicus Sentinel-2 (2024) procesados mediante Google Earth Engine (COPERNICUS/S2_SR_HARMONIZED).",
+  "archivos": {
+    "reflectancia.tif": {
+      "sha256": "9065ab10d9871c93661b7af830055d1fa5512761173660360a8b1f33f5a5caef",
+      "bytes": 11661489
+    },
+    "indices.tif": {
+      "sha256": "3a23fa152439631bd95f629abf3067d409c8a96c0f1465bfaabefccca1104930",
+      "bytes": 7067945
+    },
+    "calidad.tif": {
+      "sha256": "a2c6b7810fabbf065478efdee1de804c7b9decebb7a6fb8007837523dc8c2f4b",
+      "bytes": 6410
+    },
+    "soporte_png.tif": {
+      "sha256": "291c3c0fbf0f51b248bcc35adb8665aff36aa47a31507e3065af66cb5c556572",
+      "bytes": 3647
+    },
+    "rgb/20240123_T18NVL_20240123T152649_20240123T152651.png": {
+      "sha256": "8bcf0544746847c67b35048e5eaeb94be0aae281c6dc4df29054ec3367b24409",
+      "bytes": 1330843
+    },
+    "espectral/20240123_T18NVL_20240123T152649_20240123T152651.png": {
+      "sha256": "511806b3270b7a2d643a1653bebfb93a99d85264cf792b9f690075c81156b6b8",
+      "bytes": 1555722
+    }
+  }
+}

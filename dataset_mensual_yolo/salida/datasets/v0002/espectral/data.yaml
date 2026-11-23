@@ -1,0 +1,9 @@
+# Dataset YOLO Segmentation · variante espectral · versión v0002
+# Pseudoetiquetas automáticas (NDSI); no es verificación glaciológica.
+# Si mueves la carpeta: python -m mensual --regenerar-yaml <carpeta_version>
+path: C:/Users/ing_c/OneDrive/Documentos/DESARROLLOS GEE/Selector de imágen satelital/dataset_mensual_yolo/salida/datasets/v0002/espectral
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: nieve_hielo_visible

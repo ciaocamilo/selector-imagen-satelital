@@ -1,0 +1,15 @@
+# SDD
+SDD_*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Configuracion privada
+.env
+.env.*
+!.env.example

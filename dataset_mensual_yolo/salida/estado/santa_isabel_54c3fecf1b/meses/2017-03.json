@@ -1,0 +1,129 @@
+{
+ "mes": "2017-03",
+ "inicio_utc": "2017-03-01T00:00:00Z",
+ "fin_exclusivo_utc": "2017-04-01T00:00:00Z",
+ "estado_temporal": "cerrado",
+ "provisional": false,
+ "huella_mes": "7fb9294debd8",
+ "id_ejecucion": "20261123T012015Z_440a11",
+ "procesado_utc": "2026-11-23T01:20:15Z",
+ "seleccion_incompleta": false,
+ "candidatos": [
+  {
+   "mes": "2017-03",
+   "perfil": "L1C",
+   "orden": null,
+   "id": "COPERNICUS/S2_HARMONIZED/20170305T152631_20170305T152632_T18NVL",
+   "adquisicion_utc": "2017-03-05T15:26:32Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 0.0,
+   "util_sectores_pct": {
+    "norte": 0.0,
+    "centro": 0.0,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 99.8834,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20170305_T18NVL_20170305T152631_20170305T152632_l1c",
+   "decision": null,
+   "t": 1488727592463
+  },
+  {
+   "mes": "2017-03",
+   "perfil": "L1C",
+   "orden": null,
+   "id": "COPERNICUS/S2_HARMONIZED/20170305T152631_20170305T153139_T18NVL",
+   "adquisicion_utc": "2017-03-05T15:31:39Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 15.9663,
+   "util_aoi_pct": 0.0,
+   "util_sectores_pct": {
+    "norte": 0.0,
+    "centro": 0.0,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 100,
+   "preseleccionado": false,
+   "motivos": [
+    "cobertura_insuficiente",
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20170305_T18NVL_20170305T152631_20170305T153139_l1c",
+   "decision": null,
+   "t": 1488727899123
+  },
+  {
+   "mes": "2017-03",
+   "perfil": "L1C",
+   "orden": null,
+   "id": "COPERNICUS/S2_HARMONIZED/20170315T153101_20170315T153103_T18NVL",
+   "adquisicion_utc": "2017-03-15T15:31:03Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 0.0,
+   "util_sectores_pct": {
+    "norte": 0.0,
+    "centro": 0.0,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 98.3538,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20170315_T18NVL_20170315T153101_20170315T153103_l1c",
+   "decision": null,
+   "t": 1489591863457
+  },
+  {
+   "mes": "2017-03",
+   "perfil": "L1C",
+   "orden": null,
+   "id": "COPERNICUS/S2_HARMONIZED/20170325T152631_20170325T152633_T18NVL",
+   "adquisicion_utc": "2017-03-25T15:26:33Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 0.0,
+   "util_sectores_pct": {
+    "norte": 0.0,
+    "centro": 0.0,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 71.7812,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20170325_T18NVL_20170325T152631_20170325T152633_l1c",
+   "decision": null,
+   "t": 1490455593460
+  }
+ ],
+ "escena": null,
+ "etiqueta": null,
+ "perfil": "L1C",
+ "ruta_fuentes": "L2A preferente; L1C solo si el inventario L2A está vacío · L2A vacío → L1C",
+ "inventario": "caché",
+ "estado": "sin_escena_viable",
+ "motivo": "ninguna adquisición cumple visibilidad en AOI y cumbres"
+}

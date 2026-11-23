@@ -1,0 +1,43 @@
+{
+ "huella": "5d7183baae62",
+ "perfil": "L1C",
+ "mes": "2017-01",
+ "consultado_utc": "2026-11-23T00:50:18Z",
+ "fin_consulta_utc": "2017-02-01T00:00:00Z",
+ "cerrado": true,
+ "candidatos": [
+  {
+   "id": "COPERNICUS/S2_HARMONIZED/20170104T152622_20170104T152625_T18NVL",
+   "indice": "20170104T152622_20170104T152625_T18NVL",
+   "t": 1483543585462,
+   "qa_disponible": true,
+   "sumas": {
+    "aoi": {
+     "datos": 32451878.314185657,
+     "total": 32451878.314185657,
+     "util": 0.0
+    },
+    "centro": {
+     "datos": 7877978.878753662,
+     "total": 7877978.878753662,
+     "util": 0.0
+    },
+    "norte": {
+     "datos": 7846177.486042576,
+     "total": 7846177.486042576,
+     "util": 0.0
+    },
+    "sur": {
+     "datos": 7877803.057723582,
+     "total": 7877803.057723582,
+     "util": 0.0
+    }
+   },
+   "satelite": "Sentinel-2A",
+   "tesela": "18NVL",
+   "orbita": 25,
+   "baseline": "02.04",
+   "nube_granulo_pct": 99.9956
+  }
+ ]
+}

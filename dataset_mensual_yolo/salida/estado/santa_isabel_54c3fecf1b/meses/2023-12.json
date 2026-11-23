@@ -1,0 +1,155 @@
+{
+ "mes": "2023-12",
+ "inicio_utc": "2023-12-01T00:00:00Z",
+ "fin_exclusivo_utc": "2024-01-01T00:00:00Z",
+ "estado_temporal": "cerrado",
+ "provisional": false,
+ "huella_mes": "7fb9294debd8",
+ "id_ejecucion": "20261123T012015Z_440a11",
+ "procesado_utc": "2026-11-23T01:21:34Z",
+ "seleccion_incompleta": false,
+ "candidatos": [
+  {
+   "mes": "2023-12",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20231209T152651_20231209T152926_T18NVL",
+   "adquisicion_utc": "2023-12-09T15:31:42Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 7.3801,
+   "util_sectores_pct": {
+    "norte": 0.0,
+    "centro": 0.0508,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 48.311877,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20231209_T18NVL_20231209T152651_20231209T152926",
+   "decision": null,
+   "t": 1702135902895
+  },
+  {
+   "mes": "2023-12",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20231214T152649_20231214T152650_T18NVL",
+   "adquisicion_utc": "2023-12-14T15:31:46Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 25.938,
+   "util_sectores_pct": {
+    "norte": 2.2499,
+    "centro": 64.4005,
+    "sur": 35.9082
+   },
+   "peor_sector_pct": 2.2499,
+   "nube_granulo_pct": 87.761641,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20231214_T18NVL_20231214T152649_20231214T152650",
+   "decision": null,
+   "t": 1702567906748
+  },
+  {
+   "mes": "2023-12",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20231219T152651_20231219T152927_T18NVL",
+   "adquisicion_utc": "2023-12-19T15:31:44Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 0.2559,
+   "util_sectores_pct": {
+    "norte": 0.0,
+    "centro": 0.5285,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 88.441169,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20231219_T18NVL_20231219T152651_20231219T152927",
+   "decision": null,
+   "t": 1702999904380
+  },
+  {
+   "mes": "2023-12",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20231224T152659_20231224T152653_T18NVL",
+   "adquisicion_utc": "2023-12-24T15:31:49Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 5.3674,
+   "util_sectores_pct": {
+    "norte": 2.3112,
+    "centro": 8.5163,
+    "sur": 0.0
+   },
+   "peor_sector_pct": 0.0,
+   "nube_granulo_pct": 74.915731,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20231224_T18NVL_20231224T152659_20231224T152653",
+   "decision": null,
+   "t": 1703431909533
+  },
+  {
+   "mes": "2023-12",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20231229T152651_20231229T152928_T18NVL",
+   "adquisicion_utc": "2023-12-29T15:31:45Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 10.6067,
+   "util_sectores_pct": {
+    "norte": 10.485,
+    "centro": 0.2846,
+    "sur": 10.2789
+   },
+   "peor_sector_pct": 0.2846,
+   "nube_granulo_pct": 85.143495,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20231229_T18NVL_20231229T152651_20231229T152928",
+   "decision": null,
+   "t": 1703863905324
+  }
+ ],
+ "escena": null,
+ "etiqueta": null,
+ "perfil": "L2A",
+ "ruta_fuentes": "L2A preferente; L1C solo si el inventario L2A está vacío",
+ "inventario": "caché",
+ "estado": "sin_escena_viable",
+ "motivo": "ninguna adquisición cumple visibilidad en AOI y cumbres"
+}

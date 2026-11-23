@@ -1,0 +1,195 @@
+{
+ "formato": "1.0",
+ "version": "v0002",
+ "creado_utc": "2026-11-23T01:09:38Z",
+ "id_ejecucion": "20261123T010916Z_9fb6af",
+ "id_aoi": "santa_isabel_54c3fecf1b",
+ "huella_contenido": "47ae9585b479ba99",
+ "clases": {
+  "0": "nieve_hielo_visible"
+ },
+ "variantes": [
+  "rgb",
+  "espectral"
+ ],
+ "estado_producto": {
+  "rgb": "entrenable",
+  "espectral": "entrenable"
+ },
+ "cortes": {
+  "corte_val": "2023-09",
+  "corte_test": "2025-04",
+  "origen": "conservados_de_version_publicada",
+  "meses_plan": [
+   "2016-01",
+   "2026-12",
+   132
+  ],
+  "meses_por_split": {
+   "train": 92,
+   "val": 19,
+   "test": 21
+  },
+  "cambio_respecto_a_publicada": false
+ },
+ "conteos": {
+  "train": {
+   "imagenes": 10,
+   "positivas": 10,
+   "negativas": 0,
+   "instancias": 198,
+   "meses": [
+    "2016-01",
+    "2016-07",
+    "2016-09",
+    "2017-04",
+    "2017-06",
+    "2018-01",
+    "2018-02",
+    "2018-03",
+    "2022-01",
+    "2023-01"
+   ]
+  },
+  "val": {
+   "imagenes": 3,
+   "positivas": 3,
+   "negativas": 0,
+   "instancias": 6,
+   "meses": [
+    "2024-01",
+    "2024-10",
+    "2025-01"
+   ]
+  },
+  "test": {
+   "imagenes": 5,
+   "positivas": 5,
+   "negativas": 0,
+   "instancias": 32,
+   "meses": [
+    "2025-12",
+    "2026-03",
+    "2026-05",
+    "2026-07",
+    "2026-08"
+   ]
+  }
+ },
+ "meses_planificados": 132,
+ "meses_por_estado": {
+  "exportada": 18,
+  "sin_escena_viable": 113,
+  "futuro": 1
+ },
+ "perfiles": {
+  "L1C": 8,
+  "L2A": 10
+ },
+ "provisionales": [],
+ "seleccion_incompleta": [],
+ "verificacion": {
+  "paquete": "ok",
+  "ultralytics": {
+   "rgb": {
+    "train": {
+     "imagenes": 10,
+     "instancias": 198,
+     "lote_img": [
+      2,
+      3,
+      640,
+      640
+     ],
+     "lote_masks": [
+      2,
+      160,
+      160
+     ]
+    },
+    "val": {
+     "imagenes": 3,
+     "instancias": 6,
+     "lote_img": [
+      2,
+      3,
+      640,
+      640
+     ],
+     "lote_masks": [
+      2,
+      160,
+      160
+     ]
+    },
+    "test": {
+     "imagenes": 5,
+     "instancias": 32,
+     "lote_img": [
+      2,
+      3,
+      640,
+      640
+     ],
+     "lote_masks": [
+      2,
+      160,
+      160
+     ]
+    }
+   },
+   "espectral": {
+    "train": {
+     "imagenes": 10,
+     "instancias": 198,
+     "lote_img": [
+      2,
+      3,
+      640,
+      640
+     ],
+     "lote_masks": [
+      2,
+      160,
+      160
+     ]
+    },
+    "val": {
+     "imagenes": 3,
+     "instancias": 6,
+     "lote_img": [
+      2,
+      3,
+      640,
+      640
+     ],
+     "lote_masks": [
+      2,
+      160,
+      160
+     ]
+    },
+    "test": {
+     "imagenes": 5,
+     "instancias": 32,
+     "lote_img": [
+      2,
+      3,
+      640,
+      640
+     ],
+     "lote_masks": [
+      2,
+      160,
+      160
+     ]
+    }
+   }
+  },
+  "enlaces": {
+   "enlace": 36
+  }
+ },
+ "version_anterior": "v0001",
+ "aviso": "Pseudoetiquetas automáticas por reglas NDSI sin revisión humana; no son verificación glaciológica."
+}

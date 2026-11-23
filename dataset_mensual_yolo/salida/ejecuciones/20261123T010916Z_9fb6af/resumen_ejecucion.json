@@ -1,0 +1,41 @@
+{
+ "id_ejecucion": "20261123T010916Z_9fb6af",
+ "corte_utc": "2026-11-23T01:09:16Z",
+ "id_aoi": "santa_isabel_54c3fecf1b",
+ "meses_procesados": 132,
+ "estados_ejecucion": {
+  "exportada": 18,
+  "sin_escena_viable": 113,
+  "futuro": 1
+ },
+ "meses_dataset": 132,
+ "meses_desactualizados": [],
+ "red": "disponible",
+ "version_dataset": "v0002",
+ "dataset_nuevo": true,
+ "carpeta_dataset": "C:\\Users\\ing_c\\OneDrive\\Documentos\\DESARROLLOS GEE\\Selector de imágen satelital\\dataset_mensual_yolo\\salida\\datasets\\v0002",
+ "yaml": {
+  "rgb": "C:\\Users\\ing_c\\OneDrive\\Documentos\\DESARROLLOS GEE\\Selector de imágen satelital\\dataset_mensual_yolo\\salida\\datasets\\v0002\\rgb\\data.yaml",
+  "espectral": "C:\\Users\\ing_c\\OneDrive\\Documentos\\DESARROLLOS GEE\\Selector de imágen satelital\\dataset_mensual_yolo\\salida\\datasets\\v0002\\espectral\\data.yaml"
+ },
+ "estado_producto": {
+  "rgb": "entrenable",
+  "espectral": "entrenable"
+ },
+ "huellas": {
+  "mes": "67a9feaab992",
+  "preseleccion": "0dcaa35e153b",
+  "reglas": {
+   "L2A": "db21faa81110",
+   "L1C": "2f540f865cb6"
+  },
+  "recetas": {
+   "L2A": "a9df78f0ba93",
+   "L1C": "bbe1b88c9f0a"
+  },
+  "reglas_version": "1.0",
+  "receta_version": "2.0"
+ },
+ "meses_csv": "C:\\Users\\ing_c\\OneDrive\\Documentos\\DESARROLLOS GEE\\Selector de imágen satelital\\dataset_mensual_yolo\\salida\\ejecuciones\\20261123T010916Z_9fb6af\\meses.csv",
+ "candidatos_csv": "C:\\Users\\ing_c\\OneDrive\\Documentos\\DESARROLLOS GEE\\Selector de imágen satelital\\dataset_mensual_yolo\\salida\\ejecuciones\\20261123T010916Z_9fb6af\\candidatos.csv"
+}

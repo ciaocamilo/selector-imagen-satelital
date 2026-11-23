@@ -1,0 +1,140 @@
+{
+ "mes": "2018-12",
+ "inicio_utc": "2018-12-01T00:00:00Z",
+ "fin_exclusivo_utc": "2019-01-01T00:00:00Z",
+ "estado_temporal": "cerrado",
+ "provisional": false,
+ "huella_mes": "7fb9294debd8",
+ "id_ejecucion": "20261123T012015Z_440a11",
+ "procesado_utc": "2026-11-23T01:20:31Z",
+ "seleccion_incompleta": false,
+ "candidatos": [
+  {
+   "mes": "2018-12",
+   "perfil": "L2A",
+   "orden": 1,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20181215T152631_20181215T153104_T18NVL",
+   "adquisicion_utc": "2018-12-15T15:31:39Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 99.9975,
+   "util_aoi_pct": 88.9572,
+   "util_sectores_pct": {
+    "norte": 86.4246,
+    "centro": 81.3567,
+    "sur": 89.2426
+   },
+   "peor_sector_pct": 81.3567,
+   "nube_granulo_pct": 46.497993,
+   "preseleccionado": true,
+   "motivos": [],
+   "resultado": "positiva",
+   "detalle": "8 instancia(s) aceptadas; 41 ambiguo(s) omitidos (ambiguos_bloquean=false)",
+   "clave_escena": "20181215_T18NVL_20181215T152631_20181215T153104",
+   "decision": "positiva",
+   "t": 1544887899000
+  },
+  {
+   "mes": "2018-12",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20181220T152639_20181220T152634_T18NVL",
+   "adquisicion_utc": "2018-12-20T15:31:43Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 33.8385,
+   "util_sectores_pct": {
+    "norte": 31.49,
+    "centro": 13.3892,
+    "sur": 4.8934
+   },
+   "peor_sector_pct": 4.8934,
+   "nube_granulo_pct": 43.209794,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20181220_T18NVL_20181220T152639_20181220T152634",
+   "decision": null,
+   "t": 1545319903000
+  },
+  {
+   "mes": "2018-12",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20181225T152631_20181225T153106_T18NVL",
+   "adquisicion_utc": "2018-12-25T15:31:40Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 100.0,
+   "util_aoi_pct": 85.8545,
+   "util_sectores_pct": {
+    "norte": 82.5828,
+    "centro": 66.9766,
+    "sur": 93.6482
+   },
+   "peor_sector_pct": 66.9766,
+   "nube_granulo_pct": 18.086027,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20181225_T18NVL_20181225T152631_20181225T153106",
+   "decision": null,
+   "t": 1545751900000
+  },
+  {
+   "mes": "2018-12",
+   "perfil": "L2A",
+   "orden": null,
+   "id": "COPERNICUS/S2_SR_HARMONIZED/20181230T152639_20181230T152636_T18NVL",
+   "adquisicion_utc": "2018-12-30T15:31:45Z",
+   "qa_disponible": true,
+   "cobertura_aoi_pct": 99.9975,
+   "util_aoi_pct": 54.3492,
+   "util_sectores_pct": {
+    "norte": 56.7529,
+    "centro": 27.0325,
+    "sur": 38.8114
+   },
+   "peor_sector_pct": 27.0325,
+   "nube_granulo_pct": 39.250055,
+   "preseleccionado": false,
+   "motivos": [
+    "nubes_aoi",
+    "nubes_nucleo"
+   ],
+   "resultado": null,
+   "detalle": null,
+   "clave_escena": "20181230_T18NVL_20181230T152639_20181230T152636",
+   "decision": null,
+   "t": 1546183905000
+  }
+ ],
+ "escena": {
+  "carpeta": "cache_escenas/santa_isabel_54c3fecf1b/L2A/20181215_T18NVL_20181215T152631_20181215T153104/a9df78f0ba93",
+  "clave": "20181215_T18NVL_20181215T152631_20181215T153104",
+  "perfil": "L2A",
+  "id_asset": "COPERNICUS/S2_SR_HARMONIZED/20181215T152631_20181215T153104_T18NVL",
+  "adquisicion_utc": "2018-12-15T15:31:39Z"
+ },
+ "etiqueta": {
+  "carpeta": "cache_escenas/santa_isabel_54c3fecf1b/L2A/20181215_T18NVL_20181215T152631_20181215T153104/a9df78f0ba93/etiquetas/db21faa81110",
+  "decision": "positiva",
+  "txt": "20181215_T18NVL_20181215T152631_20181215T153104.txt",
+  "sha256_txt": "4f27499b9e62c1a9fd5526513ff258c0d52f533f54a3afdd05c58726899b5fbd",
+  "instancias": 8,
+  "origen": "automatico_ndsi",
+  "area_pseudoetiquetada_m2": 40200.0,
+  "reglas_huella": "db21faa81110",
+  "motivo": "8 instancia(s) aceptadas; 41 ambiguo(s) omitidos (ambiguos_bloquean=false)"
+ },
+ "perfil": "L2A",
+ "ruta_fuentes": "L2A preferente; L1C solo si el inventario L2A está vacío",
+ "inventario": "caché",
+ "estado": "exportada",
+ "motivo": "positiva"
+}
